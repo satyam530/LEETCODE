@@ -18,9 +18,9 @@ public:
             }
 
             else {
-                    // high=mid-1;
+                 high=mid-1;
                 ans=min(ans,arr[mid]);
-                high=mid-1;
+                // high=mid-1;
             }
 
         }
