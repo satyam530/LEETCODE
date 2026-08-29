@@ -17,7 +17,7 @@ public:
                 low=mid+1;
             }
 
-            else {
+            else if(arr[mid]<=arr[high]) {
                  high=mid-1;
                 ans=min(ans,arr[mid]);
                 // high=mid-1;
