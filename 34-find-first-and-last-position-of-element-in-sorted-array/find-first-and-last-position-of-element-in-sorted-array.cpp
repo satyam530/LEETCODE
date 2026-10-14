@@ -4,7 +4,7 @@ public:
         int low = 0, high = arr.size() - 1;
         int ans = -1;
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = (high + low) / 2;
             if (arr[mid] == target) {
                 ans = mid;        // record, then keep looking left
                 high = mid - 1;
